@@ -52,7 +52,7 @@ K_SIZE = 4
     
 print(f"Extracting {K_SIZE}-mers from {fastq_file}...")
     
-kmer_generator = stream_fastq_kmers(fastq_file, k=K_SIZE)
+#kmer_generator = stream_fastq_kmers(fastq_file, k=K_SIZE)
     
 #for i, token in enumerate(kmer_generator):
     #if i >= 10: break
